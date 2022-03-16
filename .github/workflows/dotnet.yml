@@ -14,8 +14,8 @@ jobs:
         shell: bash
         working-directory: ./crypto
     strategy:
-      matrix: 
-        os: [ubuntu-20.04, windows-2019]
+          matrix: 
+            os: [ubuntu-20.04, windows-2019]
         
         
     steps:
