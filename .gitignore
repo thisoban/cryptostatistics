@@ -30,3 +30,4 @@ cryptostatistics/cryptostatistics/bin/Debug/net6.0/cryptostatistics.pdb
 cryptostatistics/cryptostatistics/bin/Debug/net6.0/cryptostatistics.exe
 cryptostatistics/cryptostatistics/obj/Container/launch.sem
 cryptostatistics/cryptostatistics/obj/Container/launch.sem
+*.v2
