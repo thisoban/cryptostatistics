@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiso\\OneDrive - Office 365 Fontys\\Documenten\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj": {}
+    "C:\\Users\\thiso\\OneDrive\\Documents\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiso\\OneDrive - Office 365 Fontys\\Documenten\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj": {
+    "C:\\Users\\thiso\\OneDrive\\Documents\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiso\\OneDrive - Office 365 Fontys\\Documenten\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj",
+        "projectUniqueName": "C:\\Users\\thiso\\OneDrive\\Documents\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj",
         "projectName": "cryptostatistics",
-        "projectPath": "C:\\Users\\thiso\\OneDrive - Office 365 Fontys\\Documenten\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj",
+        "projectPath": "C:\\Users\\thiso\\OneDrive\\Documents\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\cryptostatistics.csproj",
         "packagesPath": "C:\\Users\\thiso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiso\\OneDrive - Office 365 Fontys\\Documenten\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\obj\\",
+        "outputPath": "C:\\Users\\thiso\\OneDrive\\Documents\\GitHub\\crypto\\cryptostatistics\\cryptostatistics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\thiso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -44,10 +46,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.SignalR.Core": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.3, )"
@@ -79,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
