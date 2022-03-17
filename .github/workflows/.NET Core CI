@@ -9,7 +9,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./cryptostatistics
+        working-directory: ./crypto/cryptostatistics
     strategy:
       matrix: 
         os: [ubuntu-20.04, windows-2019]
