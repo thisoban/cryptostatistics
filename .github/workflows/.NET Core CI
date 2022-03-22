@@ -1,32 +1,25 @@
-name: .NET Core CI
+name: .NET
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+push:
+branches: [ main ]
+pull_request:
+branches: [ main ]
+
 jobs:
-  build:
-    runs-on: ${{ matrix.os }} 
-    defaults:
-      run:
-        shell: bash
-        working-directory: cryptostatistics
-    strategy:
-      matrix: 
-        os: [ubuntu-20.04, windows-2019]
+build:
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+runs-on: ubuntu-latest
 
-    - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v1.7.2
-      with:
-        dotnet-version: 6.0.x
-
-    - name: Install dependencies
-      run: dotnet restore
-
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
+steps:
+- uses: actions/checkout@v2
+- name: Setup .NET
+uses: actions/setup-dotnet@v1
+with:
+dotnet-version: 6.0.x
+- name: Restore dependencies
+run: dotnet restore
+- name: Build
+run: dotnet build --no-restore
+- name: Test
+run: dotnet test --no-build --verbosity normal
